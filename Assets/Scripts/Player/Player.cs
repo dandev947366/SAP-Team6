@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class Player : MonoBehaviour
     private float inputY;
 
     private Vector2 movementInput;
+
+
+
 
     private void Awake()
     {
@@ -46,5 +50,15 @@ public class Player : MonoBehaviour
     private void Movement ()
     {
         rb.MovePosition(rb.position + movementInput * speed * Time.fixedDeltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Collectible"))
+        {
+            Destroy(other.gameObject);
+
+        }
+
     }
 }
