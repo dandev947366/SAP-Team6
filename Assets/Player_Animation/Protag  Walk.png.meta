@@ -1,0 +1,3420 @@
+fileFormatVersion: 2
+guid: 3b78cd0bb1c436f43af6ee3466c5d0ba
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Protag  Walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4580c7640e2b12048b2e4031bf74e2ab
+      internalID: 354858503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a57c8cfa72283840ae99fd64a5e6adc
+      internalID: -1911670463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5271e4031c1a342a837a8b82dcafea
+      internalID: 866438187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_3
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ca37f41c6bb114f968f0828ea2fe86
+      internalID: 1271671041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642819e7cb0a43b40ae68eb53ef35601
+      internalID: -1451250239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b1700a61507ea49abe4b2e73ed0ba3
+      internalID: 1364928554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112a8a628966f01419ab872afa19ddaf
+      internalID: 305542271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_7
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7579d1e9c0cc0f64f828eb331a3a8cb2
+      internalID: 1913820037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_8
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54af3e06155cf8346af0feab2032c152
+      internalID: 573045308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_9
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cf475c4ca1aef47ae645c304468bc2
+      internalID: 1015161206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_10
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6be8a46ca121642aa0581d60d2a3e3
+      internalID: -1666536877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_11
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483fe6cda507ac847983bb3492310791
+      internalID: -405140700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_12
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 7062
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2083499a6c5d0241b5e1ba2bdaadab5
+      internalID: 22864431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6f3ba120db1344fa1cafbbce36aa5f
+      internalID: 133040574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cda33e0938280740b0e18a887a43192
+      internalID: -17850234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_15
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fae43e9fa236b4da62ce14b907d20a
+      internalID: -384200615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_16
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b16cb2b053011949b96a597ad37f6fd
+      internalID: 454156345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_17
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f934370b8ddfd4f8458a94cf0621c5
+      internalID: -1552948831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_18
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81657714ed2f65349bcc5b832eff6f68
+      internalID: 818860873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_19
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31473de33e35df34a84194e54511a8a6
+      internalID: 1360979426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_20
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b73b32d3bc2a3418061d7a39fd4f83
+      internalID: 2140567205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_21
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3278e03c382ff804e8190646a62bc339
+      internalID: -519337384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_22
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97399f5ba417b384588c01ff580000bb
+      internalID: 472881003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_23
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de357b53ae612ff4a81f187dfe464cea
+      internalID: 859293894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_24
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8563fe692671ff42ba54f726763f353
+      internalID: -1406281391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_25
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 6420
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df9607495da22b469957237f8292cc9
+      internalID: -1086986768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6298ef7e01ffa4082c0c9d23333205
+      internalID: 1162197288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e015d580dbfb6749b46c4b0d862e68f
+      internalID: 231012885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_28
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab64dbc4042474d408ea8ed0d9dc08b0
+      internalID: 1218283295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_29
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83badba6b88a4004bbfc37a331538352
+      internalID: 1456657807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_30
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0099cd276c4abbc47a94307fb2a5366c
+      internalID: 1918992702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_31
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7650f45e789dbf74a8819262780ea350
+      internalID: 872448329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_32
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5c7cd91bf70f247b3560a04d327f40
+      internalID: 372325550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_33
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee5c0aec2cb18d4b8011b6175d50d0a
+      internalID: 371058167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_34
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9302d1f727d99544d8c72c4c22b45fd2
+      internalID: 1257232844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_35
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feca0d3a280269d4ab770d71360e4564
+      internalID: 1313083464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_36
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66671f2bb148b4d41be415b9742e401e
+      internalID: 329341127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_37
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabbd1616836bfa43acb2625302446c8
+      internalID: 1524788003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_38
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 5778
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfcdf3b2bdda8942980eec9a465d0c5
+      internalID: 1707350935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1b724d61d13b244bca6de33a2698bd
+      internalID: 1610115559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_40
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965b190e4e720ff49a3d599379727bbe
+      internalID: -83531309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_41
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf95152e7ac52b4f84e6bb15c799b04
+      internalID: 690058303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_42
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933216c945970b747b8333a724ad5902
+      internalID: -1452907136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_43
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da5206de2979cd4ab371148cce1e26a
+      internalID: 1056631615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_44
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5475640c919df9048ad87fdc677fb7ac
+      internalID: -488736986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_45
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9ecd6ce22690b40a945740c5c056fa
+      internalID: -2129373843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_46
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9982db73cd9d60b4b8480a8bec6d57f5
+      internalID: -2079170888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_47
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c4f58fc3656164e9ca7cd478e8f07e
+      internalID: 1513600238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_48
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85cda4b64353c34a93a3d3253938e11
+      internalID: 224308906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_49
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bc3505e0c81b34cbe069af37c877c3
+      internalID: 754478005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_50
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff204734b66a72842ad81bf775f65cac
+      internalID: 1416025221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_51
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 5136
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984b4075da052f94bbf5f55d21add3a9
+      internalID: 1924663029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aceb404288a6bd49990f1d4924f2f64
+      internalID: 756421512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_53
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc476028fdfaea54ebbd0478879cd705
+      internalID: 643687288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_54
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c936a2d6cb93c594cb1db37685f762cf
+      internalID: -671826460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_55
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db76f86c041366346803ef661f1fa29a
+      internalID: -1593636906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_56
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afe1fb5a73857b4ab3f45a204991bad
+      internalID: -1157278352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_57
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faa509683936e44ebd42dc7d5cde556
+      internalID: 302274947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_58
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b012d999458ba44a3486d68a519feb
+      internalID: 398585688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_59
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19c96db3f41e4c46851acf5f2399ef0
+      internalID: 1174635613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_60
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb88a3680a7e8549ad49b046fd85402
+      internalID: -1983109603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_61
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a24752779377646ad07f6ccfea9fae
+      internalID: -1250254062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_62
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda90faba287ac642b095208bbb61b6e
+      internalID: -1846961734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_63
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c940242e4a0e842b088797ff1395da
+      internalID: -485719084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_64
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 4494
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10902ccfa4330a744b498c6582a86879
+      internalID: -1510801461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8332f6d72786aa64bafefbbdd2b7abdc
+      internalID: -1381645352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_66
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58f8c4fdd4badf43863c02dfc90eea0
+      internalID: 1292571774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_67
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cacb96be3dc664eb42ff7d207b52ea
+      internalID: -1680147721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_68
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85772f2a11b2aa14498fcd7e662a2409
+      internalID: -1812243285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_69
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ce6c3b797431848b3c937b24ea2104
+      internalID: -891546786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_70
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d231bedb1261d124fa95908363c6a200
+      internalID: -415906931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_71
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29101f7276fadcd4ebfafabf6c7c7068
+      internalID: 174878445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_72
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9bd30585bb5b242be577473628c0df
+      internalID: -1464385793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_73
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c7496b463564641a284e83083fd103
+      internalID: 1140671938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_74
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023bb41be784f4f47b4e237dccc991e7
+      internalID: -2033509007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_75
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af13d3b51ce6a14483286b9a5fa1e77
+      internalID: 1373629754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_76
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47b6fde6fcbb6f49a9193fad8eeb418
+      internalID: 903623807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_77
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3852
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54143ce60d95d6a4e9036c5a2ddd1a70
+      internalID: -591198731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6345e3f2692cb24cac84af0d7fff865
+      internalID: -656258406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_79
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f0d39477a3f3d438ded4ede8a856db
+      internalID: 1445852531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_80
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdc03a5c0fe5974c824e2d93512a93d
+      internalID: 718445759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_81
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82380941f7343794ca5f174903bfc2e2
+      internalID: -203028405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_82
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429560c68d2b2374989ce3818d3de0c3
+      internalID: 1011285577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_83
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea1c71f964eaec4ca3174ecb3313183
+      internalID: -1142740023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_84
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5526fcb62d29f4ba672c287354fd12
+      internalID: 365027946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_85
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c6129ae8f5f224c9b79208182dec7d
+      internalID: -1626838853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_86
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213498a02c369c245b7fd63b3f9fc1ac
+      internalID: 92678378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_87
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878f95bc42374c04fba8483f35c5aa51
+      internalID: 1230784964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_88
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9b86c6d811cb84ca829a4ffcefcabe
+      internalID: 35498280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_89
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d01d090e5a48d64a987df650401d37c
+      internalID: 1447953188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_90
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3210
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf9f7d9d03684d4a9731d2060a78c06
+      internalID: -1582487772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbd9ef22d6d96844b7f42a6b98a3182
+      internalID: -2004237523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_92
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f8d31299e7eb1438c3f4422ebc29f7
+      internalID: 633393369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_93
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc477082d9a8b2645a2a3b64aa09e30a
+      internalID: -1754916247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_94
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4357b9529bffdf4aa216627e495b030
+      internalID: 674960098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_95
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3746b74c18155498305ddfb64a9886
+      internalID: -2086720092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_96
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3b30a9f2b8bd648b3a6ac11054ab10
+      internalID: 122420313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_97
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef667b2cf6948de4ca3e45811cde9e9b
+      internalID: 581089348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_98
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1b77636bf95414c9cb4c149f6a046f
+      internalID: 533871727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_99
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0631cd38710844a8a8c6e200904daa
+      internalID: 279402837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_100
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27c4d85ed89f094ca805e63217a15a8
+      internalID: 138715087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_101
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad8677e8a587c44f864df9c78bc04c5
+      internalID: 1718284388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_102
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60fde65a27fc7c408064ee5e5c94327
+      internalID: 1519432386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_103
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2568
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7b5b29e6963f548bf012e7ea5e196b
+      internalID: -301994336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e263c90f952fd8c4c8533cb7d668dad3
+      internalID: -486643090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_105
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f848a06b50935a4bb1941588081a26a
+      internalID: 1840613964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_106
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3256bb69b13ad49bba3f568c1cd6a1
+      internalID: -443048943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_107
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e95b139d5ac27946afce9c8809de1d7
+      internalID: -1213815636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_108
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4b6b0f5752325439b756165eda2ab2
+      internalID: -2000553841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_109
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4195957e5cd3f984c9a4fc2bc68b6745
+      internalID: -91287951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_110
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bc3840a86e3d84c8417f13e5bc190c
+      internalID: -720015510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_111
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69e4c3ae3c650e41ac3ce78e1758ff3
+      internalID: 603602578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_112
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f01cb91fb8f7c488ea7988f96a6985
+      internalID: -1381051453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_113
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574d3a92af6fd2343b30152c8f4b7ecc
+      internalID: -935586060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_114
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12060581512ebb5438cb9d9c85f259eb
+      internalID: 635821895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_115
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a755d3afb06601479da47f208503281
+      internalID: 161593986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_116
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1926
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251c1213c21559c4e9f47ae3c2e4edca
+      internalID: -132094532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749bc2f36bd24634eb15398f858dc2f5
+      internalID: -102293933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_118
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44b461d8b919eb478e027d345a89646
+      internalID: 1831992995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_119
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafb83c38ddf6f4498e8b1a66bb007ce
+      internalID: -422490161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_120
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61b31217550ae744b7d6da0e7792ae2
+      internalID: 842798753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_121
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77aa498439cd2c848a90f168164ce6c3
+      internalID: -587705039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_122
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a572ed32d50af4b8017469c1f0307b
+      internalID: 624592933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_123
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ebde5d02293d74597f68db850c3069
+      internalID: -818599291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_124
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bfdbcd03272b1459cb99345de6868f
+      internalID: -1229250652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_125
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43a164c50ce673499a793f8d549b964
+      internalID: 1145246902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_126
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93502c0dea9828243ac6c2e08b3f49cf
+      internalID: 485861060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_127
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35128a959ed04a34298d8be355292b58
+      internalID: 2055783697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_128
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bab8fbec4422b46beff1208e70e82f
+      internalID: -202239488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_129
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1284
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4187c9fdea6a11649994957ee8774af7
+      internalID: -1353067535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e1d23e8235b0f4a91eec931eacc0c0
+      internalID: -851876048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_131
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a945dc9aad7da874b983cf57630e22ee
+      internalID: 1820977633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_132
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be319c7d86523844ba3a93da8b4026a7
+      internalID: -164190200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_133
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d811dab4ae7334841a60bf3698fd80e6
+      internalID: 958268935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_134
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0b408c899e2524bb5b82ce8e98a9c9
+      internalID: 578858363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_135
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234e2022eaae03e49a7e504c067d1fbc
+      internalID: -1234519623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_136
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110cd7d94e8eb0c46954d11ebde4718e
+      internalID: 237073804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_137
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddf837142a8876448933760c82e5d6f
+      internalID: -407206996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_138
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165cd9e829594b449b0be547b22fd383
+      internalID: -380258199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_139
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8011cedae0389134ca6f6a1af3ca7b1c
+      internalID: 128478117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_140
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7901a8e70c38a41a906f67b1730870
+      internalID: 1198874001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_141
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c02af727b9113f499a7102cf9989621
+      internalID: 1288987518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_142
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 642
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f82b2d8fee3294dba35b4e6729b222
+      internalID: -1567092883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813ef8f7f7a1a78498e17883051de6e8
+      internalID: -486884038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_144
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708d420e90d39e84ca4f55dbb67e5166
+      internalID: -2099625435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_145
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a0bd0435ffc4b4f973acca57c8ee4e
+      internalID: 1549470413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_146
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ed37b69376c444e81fc868cfc083fc
+      internalID: 1003364672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_147
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f88a22ba7900534d80f8e7bf67bb365
+      internalID: 385887584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_148
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 0
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab98d389577eb1d4188efb494c83ac86
+      internalID: 1235857238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag  Walk_149
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 312
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2258c4e747e5f604984ac36ca4249ecf
+      internalID: -588968135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Protag  Walk_0: 354858503
+      Protag  Walk_1: -1911670463
+      Protag  Walk_10: -1666536877
+      Protag  Walk_100: 138715087
+      Protag  Walk_101: 1718284388
+      Protag  Walk_102: 1519432386
+      Protag  Walk_103: -301994336
+      Protag  Walk_104: -486643090
+      Protag  Walk_105: 1840613964
+      Protag  Walk_106: -443048943
+      Protag  Walk_107: -1213815636
+      Protag  Walk_108: -2000553841
+      Protag  Walk_109: -91287951
+      Protag  Walk_11: -405140700
+      Protag  Walk_110: -720015510
+      Protag  Walk_111: 603602578
+      Protag  Walk_112: -1381051453
+      Protag  Walk_113: -935586060
+      Protag  Walk_114: 635821895
+      Protag  Walk_115: 161593986
+      Protag  Walk_116: -132094532
+      Protag  Walk_117: -102293933
+      Protag  Walk_118: 1831992995
+      Protag  Walk_119: -422490161
+      Protag  Walk_12: 22864431
+      Protag  Walk_120: 842798753
+      Protag  Walk_121: -587705039
+      Protag  Walk_122: 624592933
+      Protag  Walk_123: -818599291
+      Protag  Walk_124: -1229250652
+      Protag  Walk_125: 1145246902
+      Protag  Walk_126: 485861060
+      Protag  Walk_127: 2055783697
+      Protag  Walk_128: -202239488
+      Protag  Walk_129: -1353067535
+      Protag  Walk_13: 133040574
+      Protag  Walk_130: -851876048
+      Protag  Walk_131: 1820977633
+      Protag  Walk_132: -164190200
+      Protag  Walk_133: 958268935
+      Protag  Walk_134: 578858363
+      Protag  Walk_135: -1234519623
+      Protag  Walk_136: 237073804
+      Protag  Walk_137: -407206996
+      Protag  Walk_138: -380258199
+      Protag  Walk_139: 128478117
+      Protag  Walk_14: -17850234
+      Protag  Walk_140: 1198874001
+      Protag  Walk_141: 1288987518
+      Protag  Walk_142: -1567092883
+      Protag  Walk_143: -486884038
+      Protag  Walk_144: -2099625435
+      Protag  Walk_145: 1549470413
+      Protag  Walk_146: 1003364672
+      Protag  Walk_147: 385887584
+      Protag  Walk_148: 1235857238
+      Protag  Walk_149: -588968135
+      Protag  Walk_15: -384200615
+      Protag  Walk_150: 578596898
+      Protag  Walk_151: 842113145
+      Protag  Walk_152: -249477185
+      Protag  Walk_153: 948455399
+      Protag  Walk_154: -863261358
+      Protag  Walk_155: 1458983034
+      Protag  Walk_16: 454156345
+      Protag  Walk_17: -1552948831
+      Protag  Walk_18: 818860873
+      Protag  Walk_19: 1360979426
+      Protag  Walk_2: 866438187
+      Protag  Walk_20: 2140567205
+      Protag  Walk_21: -519337384
+      Protag  Walk_22: 472881003
+      Protag  Walk_23: 859293894
+      Protag  Walk_24: -1406281391
+      Protag  Walk_25: -1086986768
+      Protag  Walk_26: 1162197288
+      Protag  Walk_27: 231012885
+      Protag  Walk_28: 1218283295
+      Protag  Walk_29: 1456657807
+      Protag  Walk_3: 1271671041
+      Protag  Walk_30: 1918992702
+      Protag  Walk_31: 872448329
+      Protag  Walk_32: 372325550
+      Protag  Walk_33: 371058167
+      Protag  Walk_34: 1257232844
+      Protag  Walk_35: 1313083464
+      Protag  Walk_36: 329341127
+      Protag  Walk_37: 1524788003
+      Protag  Walk_38: 1707350935
+      Protag  Walk_39: 1610115559
+      Protag  Walk_4: -1451250239
+      Protag  Walk_40: -83531309
+      Protag  Walk_41: 690058303
+      Protag  Walk_42: -1452907136
+      Protag  Walk_43: 1056631615
+      Protag  Walk_44: -488736986
+      Protag  Walk_45: -2129373843
+      Protag  Walk_46: -2079170888
+      Protag  Walk_47: 1513600238
+      Protag  Walk_48: 224308906
+      Protag  Walk_49: 754478005
+      Protag  Walk_5: 1364928554
+      Protag  Walk_50: 1416025221
+      Protag  Walk_51: 1924663029
+      Protag  Walk_52: 756421512
+      Protag  Walk_53: 643687288
+      Protag  Walk_54: -671826460
+      Protag  Walk_55: -1593636906
+      Protag  Walk_56: -1157278352
+      Protag  Walk_57: 302274947
+      Protag  Walk_58: 398585688
+      Protag  Walk_59: 1174635613
+      Protag  Walk_6: 305542271
+      Protag  Walk_60: -1983109603
+      Protag  Walk_61: -1250254062
+      Protag  Walk_62: -1846961734
+      Protag  Walk_63: -485719084
+      Protag  Walk_64: -1510801461
+      Protag  Walk_65: -1381645352
+      Protag  Walk_66: 1292571774
+      Protag  Walk_67: -1680147721
+      Protag  Walk_68: -1812243285
+      Protag  Walk_69: -891546786
+      Protag  Walk_7: 1913820037
+      Protag  Walk_70: -415906931
+      Protag  Walk_71: 174878445
+      Protag  Walk_72: -1464385793
+      Protag  Walk_73: 1140671938
+      Protag  Walk_74: -2033509007
+      Protag  Walk_75: 1373629754
+      Protag  Walk_76: 903623807
+      Protag  Walk_77: -591198731
+      Protag  Walk_78: -656258406
+      Protag  Walk_79: 1445852531
+      Protag  Walk_8: 573045308
+      Protag  Walk_80: 718445759
+      Protag  Walk_81: -203028405
+      Protag  Walk_82: 1011285577
+      Protag  Walk_83: -1142740023
+      Protag  Walk_84: 365027946
+      Protag  Walk_85: -1626838853
+      Protag  Walk_86: 92678378
+      Protag  Walk_87: 1230784964
+      Protag  Walk_88: 35498280
+      Protag  Walk_89: 1447953188
+      Protag  Walk_9: 1015161206
+      Protag  Walk_90: -1582487772
+      Protag  Walk_91: -2004237523
+      Protag  Walk_92: 633393369
+      Protag  Walk_93: -1754916247
+      Protag  Walk_94: 674960098
+      Protag  Walk_95: -2086720092
+      Protag  Walk_96: 122420313
+      Protag  Walk_97: 581089348
+      Protag  Walk_98: 533871727
+      Protag  Walk_99: 279402837
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
