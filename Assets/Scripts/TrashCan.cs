@@ -29,5 +29,7 @@ public class TrashCan : MonoBehaviour, IInteractable
         // 爆出物品后销毁垃圾桶
         Destroy(gameObject);
         Debug.Log("TrashCan destroyed");
+
+        ScoreManager.instance.AddPoint();
     }
 }
