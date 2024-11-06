@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - TrashCan
+=======
+  - Collectible
+  - Score
+>>>>>>> dec633c38d7c71654b40e2643c1886da009fd3d0
   layers:
   - Default
   - TransparentFX
