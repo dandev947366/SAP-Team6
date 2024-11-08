@@ -12,10 +12,11 @@ public class Player : MonoBehaviour
     private float inputX;
     private float inputY;
     private Vector2 movementInput;
-    private bool hasMoved = false; // 用于检测玩家是否移动过
+    private bool hasMoved = false;
 
     public SpriteRenderer spriteRender;
     public float interactionRadius = 1f;
+    private bool isRunning = false; // 用于检测是否按住 Shift
 
     private void Awake()
     {
@@ -36,10 +37,13 @@ public class Player : MonoBehaviour
 
         movementInput = new Vector2(inputX, inputY);
 
+        // 检测是否按住 Shift 键
+        isRunning = Input.GetKey(KeyCode.LeftShift);
+
         // 检测玩家是否开始移动
         if (movementInput != Vector2.zero)
         {
-            hasMoved = true; // 玩家已移动，开启物品检测
+            hasMoved = true;
             if (inputX > 0)
             {
                 spriteRender.flipX = true;
@@ -54,6 +58,9 @@ public class Player : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
         }
+
+        // 更新动画中的奔跑状态
+        animator.SetBool("isRunning", isRunning);
     }
 
     private void Update()
@@ -75,12 +82,14 @@ public class Player : MonoBehaviour
 
     private void Movement()
     {
-        rb.MovePosition(rb.position + movementInput * speed * Time.fixedDeltaTime);
+        // 根据是否按住 Shift 调整速度
+        float currentSpeed = isRunning ? speed * 2f : speed;
+        rb.MovePosition(rb.position + movementInput * currentSpeed * Time.fixedDeltaTime);
     }
 
     private void DetectNearbyInteractable()
     {
-        if (!hasMoved) return; // 如果玩家还没有移动，则不进行检测
+        if (!hasMoved) return;
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactionRadius);
         IInteractable closestInteractable = null;
@@ -116,9 +125,8 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!hasMoved) return; // 如果玩家还没有移动，则不拾取物品
+        if (!hasMoved) return;
 
-        // 检查是否为可互动物品
         IInteractable interactable = other.GetComponent<IInteractable>();
         if (interactable != null)
         {
@@ -126,7 +134,6 @@ public class Player : MonoBehaviour
             Debug.Log("Player entered interactable area of: " + interactable);
         }
 
-        // 检查是否为收集物
         Collectible collectible = other.GetComponent<Collectible>();
         if (collectible != null)
         {

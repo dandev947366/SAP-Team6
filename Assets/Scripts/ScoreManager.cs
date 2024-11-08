@@ -48,7 +48,7 @@ public class ScoreManager : MonoBehaviour
 
         for (int i = 0; i < _stages.Length; i++)
         {
-            if (score> _stages[i] && score < _stages[i + 1])
+            if (score>= _stages[i] && score < _stages[i + 1])
             {
                 titleText.text = "Title: " + titles[i];
             }
