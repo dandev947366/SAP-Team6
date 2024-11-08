@@ -30,6 +30,5 @@ public class TrashCan : MonoBehaviour, IInteractable
         Destroy(gameObject);
         Debug.Log("TrashCan destroyed");
 
-        ScoreManager.instance.AddPoint();
     }
 }

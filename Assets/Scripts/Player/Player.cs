@@ -12,10 +12,10 @@ public class Player : MonoBehaviour
     private float inputX;
     private float inputY;
     private Vector2 movementInput;
+    private bool hasMoved = false; // 用于检测玩家是否移动过
 
     public SpriteRenderer spriteRender;
-
-    public float interactionRadius = 1f; // 检测范围
+    public float interactionRadius = 1f;
 
     private void Awake()
     {
@@ -36,8 +36,10 @@ public class Player : MonoBehaviour
 
         movementInput = new Vector2(inputX, inputY);
 
+        // 检测玩家是否开始移动
         if (movementInput != Vector2.zero)
         {
+            hasMoved = true; // 玩家已移动，开启物品检测
             if (inputX > 0)
             {
                 spriteRender.flipX = true;
@@ -77,38 +79,58 @@ public class Player : MonoBehaviour
     }
 
     private void DetectNearbyInteractable()
-{
-    // 使用 Physics2D.OverlapCircle 来检测玩家附近的可互动物体
-    Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactionRadius);
-    IInteractable closestInteractable = null;
-    float closestDistance = Mathf.Infinity;
-
-    foreach (var hit in hits)
     {
-        IInteractable interactable = hit.GetComponent<IInteractable>();
-        if (interactable != null)
+        if (!hasMoved) return; // 如果玩家还没有移动，则不进行检测
+
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactionRadius);
+        IInteractable closestInteractable = null;
+        float closestDistance = Mathf.Infinity;
+
+        foreach (var hit in hits)
         {
-            float distance = Vector2.Distance(transform.position, hit.transform.position);
-            if (distance < closestDistance)
+            IInteractable interactable = hit.GetComponent<IInteractable>();
+            if (interactable != null)
             {
-                closestDistance = distance;
-                closestInteractable = interactable;
+                float distance = Vector2.Distance(transform.position, hit.transform.position);
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closestInteractable = interactable;
+                }
+            }
+        }
+
+        if (closestInteractable != nearbyInteractable)
+        {
+            nearbyInteractable = closestInteractable;
+            if (nearbyInteractable != null)
+            {
+                Debug.Log("Player entered interactable area of: " + nearbyInteractable);
+            }
+            else
+            {
+                Debug.Log("Player exited all interactable areas");
             }
         }
     }
 
-    if (closestInteractable != nearbyInteractable)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        nearbyInteractable = closestInteractable;
-        if (nearbyInteractable != null)
+        if (!hasMoved) return; // 如果玩家还没有移动，则不拾取物品
+
+        // 检查是否为可互动物品
+        IInteractable interactable = other.GetComponent<IInteractable>();
+        if (interactable != null)
         {
-            Debug.Log("Player entered interactable area of: " + nearbyInteractable);
+            nearbyInteractable = interactable;
+            Debug.Log("Player entered interactable area of: " + interactable);
         }
-        else
+
+        // 检查是否为收集物
+        Collectible collectible = other.GetComponent<Collectible>();
+        if (collectible != null)
         {
-            Debug.Log("Player exited all interactable areas");
+            collectible.Collect();
         }
     }
-}
-
 }
