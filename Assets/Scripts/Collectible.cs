@@ -9,7 +9,8 @@ public class Collectible : MonoBehaviour
     public void Collect()
     {
         // 将价值添加到金币总数
-        ScoreManager.instance.AddPoint();
+        ScoreManager.instance.AddPoint(value);
+
         Destroy(gameObject); // 收集后销毁物品
     }
 }

@@ -5,11 +5,17 @@ public class TrashCan : MonoBehaviour, IInteractable
     public GameObject[] items; // 可以掉落的物品预制件数组
     public int minItems = 1; // 最小掉落数量
     public int maxItems = 5; // 最大掉落数量
-
+    private SFXTrigger sfx;
     // 实现接口中的 Interact 方法
+    private void Start()
+    {
+        sfx = GetComponent<SFXTrigger>();
+    }
+
     public void Interact()
     {
         Debug.Log("TrashCan Interact called"); // 调试日志
+        sfx.InitiateSFX();
 
         int itemCount = Random.Range(minItems, maxItems + 1); // 随机生成掉落的物品数量
 

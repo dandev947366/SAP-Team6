@@ -12,7 +12,7 @@ public class AudioController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        music.Play();
+        PlayMusic(0);
         music.loop = true;
     }
 
