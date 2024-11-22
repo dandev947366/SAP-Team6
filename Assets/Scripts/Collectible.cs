@@ -2,15 +2,29 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    [Tooltip("This value represents the amount of money this item gives when collected.")]
-    public int value = 1; // 每个物品的金币价值，默认为1
+    public ItemData itemData; // 绑定 ScriptableObject 数据
 
-    // 被收集时调用
-    public void Collect()
+    private void Start()
     {
-        // 将价值添加到金币总数
-        ScoreManager.instance.AddPoint(value);
-
-        Destroy(gameObject); // 收集后销毁物品
+        // 动态设置 Sprite Renderer 的图像
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        if (itemData != null && spriteRenderer != null)
+        {
+            spriteRenderer.sprite = itemData.icon; // 使用 ItemData 中的图标
+        }
     }
+
+public void Collect()
+{
+    InventorySystem inventory = FindObjectOfType<InventorySystem>();
+    if (inventory != null && itemData != null)
+    {
+        inventory.AddItem(itemData.itemID, itemData.itemName, itemData.defaultQuantity, itemData.icon); // 使用默认数量
+        Debug.Log($"Collected: {itemData.itemName}");
+    }
+
+    Destroy(gameObject); // 收集后销毁物品
+}
+
+
 }

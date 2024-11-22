@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
         }
 
         // 更新动画中的奔跑状态
-        animator.SetBool("isRunning", isRunning);
+        // animator.SetBool("isRunning", isRunning);
     }
 
     private void Update()
